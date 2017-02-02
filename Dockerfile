@@ -44,3 +44,6 @@ WORKDIR	/wd
 
 USER	mxe
 
+COPY	mxe.sh /wd/mxe.sh
+CMD	/wd/mxe.sh > /wd/mxe.log 2>&1
+
